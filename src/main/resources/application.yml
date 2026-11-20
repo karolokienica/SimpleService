@@ -1,0 +1,7 @@
+micronaut:
+  application:
+    name: simpleService
+datasources:
+  default:
+    driver-class-name: org.h2.Driver
+redis.uri: redis://localhost
